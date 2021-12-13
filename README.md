@@ -11,18 +11,18 @@ but can vary from village to village.
 
 The text below describes how a village may be connected:
 
-25
-6 10
-0 1 40
-0 2 20
-1 2 15
-1 3 68
-2 4 33
-2 5 28
-3 5 19
-3 6 31
-4 5 52
-5 6 77
+ 25
+ 6 10
+ 0 1 40
+ 0 2 20
+ 1 2 15
+ 1 3 68
+ 2 4 33
+ 2 5 28
+ 3 5 19
+ 3 6 31
+ 4 5 52
+ 5 6 77
 
 where:
 • First line contains the antenna cost.
