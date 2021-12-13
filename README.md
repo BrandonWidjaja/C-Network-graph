@@ -1,15 +1,15 @@
 # C-Network-graph
 
 An Internet service provider wants to deliver service to a village. They have two installation
-options:
+options:  
 • Cabled installation. This means connecting the data center via underground cables. Con-
 nections can be either made from the data center to a house or between houses. The cost is
-equal to the distance between houses (or between a data center and a house).
+equal to the distance between houses (or between a data center and a house).  
 • Radio-based installation. This means installing antennas in each house, which then receive
 the internet signal through a satellite. The cost of an antenna installation is fixed per house
-but can vary from village to village.
-
-The text below describes how a village may be connected:
+but can vary from village to village.  
+  
+The text below describes how a village may be connected:  
 
  25  
  6 10  
@@ -23,13 +23,13 @@ The text below describes how a village may be connected:
  3 6 31  
  4 5 52  
  5 6 77  
-
-where:
-• First line contains the antenna cost.
+  
+where:  
+• First line contains the antenna cost.  
 • Second line shows the number of houses followed by the number of connections in the
-village.
+village.  
 • Remaining lines show connections where the first and second number are the houses (or 0 if
-it is the data center) and the third number is the actual distance.
+it is the data center) and the third number is the actual distance.  
 
 ## Part A
 Devise a program in C that given a village map and antenna installation cost in the format de-
