@@ -1,5 +1,7 @@
 # C-Network-graph
 
+This project was implemented in C. It calculates information about antenna and cabled network connections within a group of houses and villages. Given some skeleton code for reading in graphs into matrices, Dijkstra’s algorithm is implemented to calculate information such as whether it would be cheaper to connect the houses via antenna, or via cables (according to the shortest path between houses). It is also used to calculate the minimum total cost assuming that a mix of cables and antenna can be used.
+
 An Internet service provider wants to deliver service to a village. They have two installation
 options:  
 • Cabled installation. This means connecting the data center via underground cables. Con-
